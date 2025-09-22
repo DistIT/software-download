@@ -132,4 +132,8 @@ input:focus {
     margin-top: 8px;
     width: auto;
   }
+#results .item img[src*="GAM-103.png"] {
+  margin-left: 25%;
+  margin-right: auto;
+}
 }
