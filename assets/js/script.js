@@ -39,7 +39,7 @@ class ProductFilter {
 	append(id,url) {
 		const HTML = `
 		<div class="item">
-			<img src="https://distit.github.io/software-download/images/${id}.PNG?width=${this.imageSize}"/>
+			<img src="https://distit.github.io/software-download/images/${id}.png?width=${this.imageSize}"/>
 			<h2>${id}</h2>
 			<a href="${url}" target="_blank"><p class="button">Download</p></a>
 		</div>`
