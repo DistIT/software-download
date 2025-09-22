@@ -109,3 +109,27 @@ input:focus {
 	border-top: solid 2px rgba(255,255,255,.2);
 	padding-top: 20px;
 }
+
+@media (max-width: 767px) {
+  #results .item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #results .item img {
+    max-width: 70%;   /* shrink image on mobile */
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+  #results .item h2 {
+    margin: 8px 0;
+  }
+
+  #results .item .button {
+    display: inline-block;
+    margin-top: 8px;
+    width: auto;
+  }
+}
