@@ -110,6 +110,12 @@ input:focus {
 	padding-top: 20px;
 }
 
+#results .item img[src*="GAM-103.png"] {
+  display: inline-block;
+  padding-right: 167px; /* 400 - 233 = 167 */
+  box-sizing: content-box;
+}
+
 @media (max-width: 767px) {
   #results .item {
     flex-direction: column;
